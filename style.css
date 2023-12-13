@@ -80,8 +80,12 @@ body {
 @media screen and (max-width: 768px) {
   /* Adjust styles here for smaller screens */
   #ptop {
-    padding: 0px 10%;
-    height: 100px;
+    padding: 0px 5%; /* Adjusted padding for smaller screens */
+    height: 80px; /* Reduced height for smaller screens */
   }
-  /* Add more adjustments as needed */
+  #panel {
+    width: 95%; /* Adjusted width for smaller screens */
+    height: 95%; /* Adjusted height for smaller screens */
+  }
+  
 }
